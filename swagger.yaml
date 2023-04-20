@@ -1,0 +1,11 @@
+openapi: 3.0.2
+info:
+  title: Social app
+  description: A social app to make the first api documentation using swaggeer.
+  version: 1.0.1
+
+servers:
+  - url: http://localhost:4000/api/v1
+    description: Localhost version of this app
+  - url: https://localhost:4000/api/v1
+    description: this is demo api url
