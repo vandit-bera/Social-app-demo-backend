@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vandit-bera/Social-app-demo-backend/issues"
   },
-  "homepage": "https://github.com/vandit-bera/Social-app-demo-backend#readme"
+  "homepage": "https://github.com/vandit-bera/Social-app-demo-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
