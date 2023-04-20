@@ -1,0 +1,23 @@
+{
+  "name": "social-app-demo-backend",
+  "version": "1.0.0",
+  "description": "A Social app for learn API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandit-bera/Social-app-demo-backend.git"
+  },
+  "keywords": [
+    "express",
+    "api"
+  ],
+  "author": "Vandit Bera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandit-bera/Social-app-demo-backend/issues"
+  },
+  "homepage": "https://github.com/vandit-bera/Social-app-demo-backend#readme"
+}
