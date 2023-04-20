@@ -1,5 +1,7 @@
 const express = require("express")
 
+const format = require("date-format")
+
 const app = express()
 
 const PORT = 4000
@@ -13,7 +15,7 @@ app.get("/api/v1/instagram", (req, res) => {
         username: "vandit.bera",
         followers: 200,
         follows: 206,
-        date: Date.now()
+        date: format.asString("dd:MM:yy -- hh:mm:ss", new Date())
     }
 
     res.status(200).json({ instagramSocial })
@@ -24,7 +26,7 @@ app.get("/api/v1/linkedin", (req, res) => {
         username: "vandit_bera",
         followers: 580,
         follows: 420,
-        date: Date.now()
+        date: format.asString("dd:MM:yy -- hh:mm:ss", new Date())
     }
 
     res.status(200).json( linkedSocial )
