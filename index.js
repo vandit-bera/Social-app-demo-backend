@@ -32,6 +32,10 @@ app.get("/api/v1/linkedin", (req, res) => {
     res.status(200).json( linkedSocial )
 })
 
+app.get("/api/v1/:token", (req, res) => {
+    res.status(200).json({ paramtoken: req.params.token })
+})
+
 app.listen(PORT, () => {
     console.log(`Server is running at ${PORT}`)
 })
